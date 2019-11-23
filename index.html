@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="./krisztikeblogja.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Krisztike blogja</h1>
+    </div>
+    <div class="newpost">
+        <h2>Új poszt</h2>
+        <div class="postform">
+            <form>
+                <div>
+                    <div>
+                        <label for="title">Title</label>
+                    </div>
+                    <input type="text" id="title">
+                </div>
+                <div>
+                    <div>
+                        <label for="content">Content</label>
+                    </div>
+                    <textarea id="content" name="content" rows="5" cols="33"></textarea>
+                </div>
+                <div>
+                    <input id="kuld" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="posts">
+        <div class="post">
+            <h2>Utolsó nap</h2>
+            <p>"2019. november 23. Nagy örömömre szolgál, hogy részt vehettem a Greenfox három napos képzésén. Nagyon sok új információval gazdagodtam, és ki tudja, talán egy napon elmélyült tudássá válik mindaz amit itt tanultam."
+            </p>
+        </div>
+     <div class="post">
+            <h2>Második nap</h2>
+            <p>"2019. november 22. Kár volt izgulni, a hely nagyon kellemes, a mentorok jó fejek és az ellátás első osztályú volt. Maradtam volna még, szinte sajnáltam, hogy ilyen gyorsan véget ért a nap. Este hulla fáradtan estem be az ágyba, és még ott is a házi feladatnak kapott tutorialokat néztem."
+            </p>
+     </div><div class="post">
+            <h2>Első nap</h2>
+            <p>"2019. november 21. Péntek Szörnyen izgulok. Már hajnali négykor fent voltam."
+            </p>
+        </div>
+        <div class="post">
+            <h2>A döntés/h2>
+            <p>"2019. november 15.  Hónapok óta szemezek a Greenfox reklámjával az Instán. Nagyon sajnálom, hogy lemaradtam a hétvégi workhopjukról. De mosteldöntöttem. Kész-pasz. Belevágok. Megveszem a jegyem... Ez sem zökkenőmentes. De sikerült orvosolni. Van PayPalom! "
+            </p>
+        </div>
+    </div>
+  <img src="ibolya.jpg" alt = "a képen egy ibolya virág látható">  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6LuQD1exVFclzdJkut_E7POKoWRqk3Vs",
+    authDomain: "blog-fd55f.firebaseapp.com",
+    databaseURL: "https://blog-fd55f.firebaseio.com",
+    projectId: "blog-fd55f",
+    storageBucket: "blog-fd55f.appspot.com",
+    messagingSenderId: "607333702341",
+    appId: "1:607333702341:web:8354e47ceace077934eeac"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+    <script src="scripts.js"></script>
+</script>
+</body>
+
+</html>
